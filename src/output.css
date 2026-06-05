@@ -85,6 +85,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-normal: 400;
@@ -551,6 +553,9 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
@@ -596,6 +601,12 @@
   .h-\[900px\] {
     height: 900px;
   }
+  .h-\[\=\] {
+    height: =;
+  }
+  .h-\[\=w\] {
+    height: =w;
+  }
   .h-auto {
     height: auto;
   }
@@ -625,6 +636,9 @@
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
+  }
+  .w-50 {
+    width: calc(var(--spacing) * 50);
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
@@ -736,6 +750,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-34 {
     gap: calc(var(--spacing) * 34);
@@ -1527,6 +1544,12 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
+  }
+  .px-50 {
+    padding-inline: calc(var(--spacing) * 50);
+  }
   .px-60 {
     padding-inline: calc(var(--spacing) * 60);
   }
@@ -1551,6 +1574,10 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
