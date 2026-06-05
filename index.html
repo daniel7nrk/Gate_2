@@ -36,10 +36,39 @@
     <div class=" flex flex-col px-50">
         <h1 class="font-bold text-3xl">Research at LMU</h1>
         <h1>LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</h1>
-        <div>
-            <div class="grid grid-cols-4 grid-rows-4 w-full h-[=w] bg-amber-300">
+        <div class="w-full aspect-square">
+        <div class="grid grid-cols-4 grid-rows-3 w-full h-full">
+
+            <!-- IMAGE BLOCK (2x2) -->
+            <div class="col-span-2 row-span-2 relative grid grid-cols-2 grid-rows-2">
+
+            <!-- background image layer -->
+            <img src="./src/img/prof_kiebler_2632_full_1_1_format_l.jpg"
+                class="absolute inset-0 w-full h-full object-cover"
+                alt="">
+
+            <!-- overlay content -->
+            <div class="relative z-10"></div>
+            <div class="relative z-10"></div>
+
+            <div class="relative z-10 bg-green-400"></div>
+            <div class="relative z-10"></div>
 
             </div>
+
+            <!-- Top row -->
+            <div class="bg-black"></div>
+            <div class="bg-white"></div>
+
+            <!-- Gray block -->
+            <div class="bg-gray-400 col-span-2 row-span-2"></div>
+
+            <!-- Bottom row -->
+            <div class="bg-white"></div>
+            <div class="bg-black"></div>
+
+        </div>
+        </div>
         </div>
     </div>
 
