@@ -6,48 +6,86 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 <body class="px-20">
-    <!-- Navigation -->
-    <nav class="bg-white     flex justify-between items-center gap-10 px-60 py-4 top-0 sticky">
+  <!-- Navigation -->
+  <nav class="bg-white flex justify-between items-center gap-10 px-60 py-4 top-0 sticky  z-50">
     <!-- left -->
-    <div class="flex gap-5 ">
-        <div class="bg-green-500 relative size-16"><img src="./src/img/image2.png" alt=""></div>
-        <div class="bg-green-500 relative size-16"><img src="./src/img/image.png" alt=""></div>
+    <div class="flex gap-5">
+      <div class="bg-green-500 relative size-16">
+        <img src="./src/img/image2.png" alt="">
+      </div>
+      <div class="bg-green-500 relative size-16">
+        <img src="./src/img/image.png" alt="">
+      </div>
     </div>
     <!-- right -->
     <div class="flex justify-between items-center gap-10 px-8 py-4">
-   
+      <ul class="flex gap-8 font-bold">
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Study</a></li>
+        <li><a href="#">About LMU</a></li>
+      </ul>
 
-        <ul class="flex gap-8 font-bold">
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Study</a></li>
-            <li><a href="#">About LMU</a></li>
-        </ul>
-        <div><h1 class="text-2xl font-bold">DE</h1></div>
-        <div class="flex items-center gap-4">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="-2.5 -2.5 24 24"><path d="M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12zm6.32-1.094l3.58 3.58a1 1 0 1 1-1.415 1.413l-3.58-3.58a8 8 0 1 1 1.414-1.414z"/></svg>
-            <svg class="w-6 h-6" viewBox="0 0 48 48"><g fill="#607D8B"><rect x="6" y="22" width="36" height="4"/><rect x="6" y="10" width="36" height="4"/><rect x="6" y="34" width="36" height="4"/></g></svg>
-        </div>
+      <div><h1 class="text-2xl font-bold">DE</h1></div>
+
+      <div class="flex items-center gap-4">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="-2.5 -2.5 24 24">
+          <path d="M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12zm6.32-1.094l3.58 3.58a1 1 0 1 1-1.415 1.413l-3.58-3.58a8 8 0 1 1 1.414-1.414z"/>
+        </svg>
+
+        <svg class="w-6 h-6" viewBox="0 0 48 48">
+          <g fill="#607D8B">
+            <rect x="6" y="22" width="36" height="4"/>
+            <rect x="6" y="10" width="36" height="4"/>
+            <rect x="6" y="34" width="36" height="4"/>
+          </g>
+        </svg>
+      </div>
     </div>
-    </nav>
-    <!-- the rhythm of life -->
+  </nav>
 
+  <!-- Research at LMU -->
+  <div class="flex flex-col px-50">
 
-    <!-- Research at LMU -->
-    <div class=" flex flex-col px-50">
-        <h1 class="font-bold text-3xl">Research at LMU</h1>
-        <h1>LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</h1>
-        <div class="w-full aspect-square">
+    <h1 class="font-bold text-3xl">Research at LMU</h1>
+    <h1>
+      LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.
+    </h1>
+
+    <div class="w-[150vh] h-[150vh] mx-auto">
+
+    <div class="grid grid-cols-4 grid-rows-3 w-full h-full">
+        <div class="col-span-2 row-span-2 relative grid grid-cols-2 grid-rows-2">
+
+        <img src="./src/img/prof_kiebler_2632_full_1_1_format_l.jpg" class="absolute inset-0 w-full h-full object-cover" alt="">
+
+        <div class="relative z-10"></div>
+        <div class="relative z-10"></div>
+
+        <div class="relative z-10 bg-green-400"></div>
+        <div class="relative z-10"></div>
+
+        </div>
+        <div class="bg-black"></div>
+        <div class="bg-white"></div>
+
+        <div class="bg-gray-400 col-span-2 row-span-2"></div>
+
+        <div class="bg-white"></div>
+        <div class="bg-black"></div>
+
+    </div>
+    </div>
+  </div>
+
+    <!-- Studying at LMU -->
+    <div class="flex flex-col px-50 mt-20">
+        <h1 class="font-bold text-3xl">Studying at LMU</h1>
+        <h1> LMU has a reputation for its extensive range of subjects. Here, you can learn from leading academics at one of Germany’s most renowned universities.</h1>
+
+    <div class="w-[150vh] h-[150vh] mx-auto">
         <div class="grid grid-cols-4 grid-rows-3 w-full h-full">
-
-            <!-- IMAGE BLOCK (2x2) -->
             <div class="col-span-2 row-span-2 relative grid grid-cols-2 grid-rows-2">
-
-            <!-- background image layer -->
-            <img src="./src/img/prof_kiebler_2632_full_1_1_format_l.jpg"
-                class="absolute inset-0 w-full h-full object-cover"
-                alt="">
-
-            <!-- overlay content -->
+            <img src="./src/img/prof_kiebler_2632_full_1_1_format_l.jpg" class="absolute inset-0 w-full h-full object-cover" alt="">
             <div class="relative z-10"></div>
             <div class="relative z-10"></div>
 
@@ -55,40 +93,22 @@
             <div class="relative z-10"></div>
 
             </div>
-
-            <!-- Top row -->
             <div class="bg-black"></div>
             <div class="bg-white"></div>
 
-            <!-- Gray block -->
             <div class="bg-gray-400 col-span-2 row-span-2"></div>
 
-            <!-- Bottom row -->
             <div class="bg-white"></div>
             <div class="bg-black"></div>
 
         </div>
-        </div>
-        </div>
     </div>
 
-
-
-    <!-- Studying at LMU -->
-    <div class=" flex flex-col px-50">
-        <h1 class="font-bold text-3xl">Studying at LMU</h1>
-        <h1>LMU has a reputation for its extensive range of subjects. Here, you can learn from leading academics at one of Germany’s most renowned universities. Study in the heart of Munich and gain first-hand, practical experience as you go.</h1>
-        <div>
-            
-        </div>
     </div>
-
     <!-- Become part of LMU Munich -->
-    <h1>Become part of LMU Munich</h1>
+    <div class="flex flex-col px-50 mt-20">
+        <h1 class="font-bold text-3xl">Become part of LMU Munich</h1>
     <h1>LMU researchers work at the highest level on the great questions affecting people, society, culture, the environment and technology — supported by experts in administration, IT and tech.</h1>
-    <div>
-        
     </div>
-
 </body>
 </html>
